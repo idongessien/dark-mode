@@ -4,5 +4,8 @@ export default function useLocalStorage(key, initialValue) {
         return item ? JSON.parse(item) : initialValue;
     });
     
+    function setValue(value) {
+        
+    }
     return [storedValue];
 };
